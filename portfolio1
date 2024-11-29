@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio Creativo">
+    <title>Portafolio Creativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mi Portafolio</div>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>¡Hola! Soy [Tu Nombre]</h1>
+        <p>Un apasionado por el diseño y la creatividad.</p>
+        <a href="#proyectos" class="btn">Ver mi trabajo</a>
+    </section>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy [Tu Nombre], un artista/diseñador/creador que ama transformar ideas en realidad. Me especializo en [tu especialidad] y siempre estoy buscando nuevos desafíos creativos.</p>
+        <img src="perfil.jpg" alt="Foto de perfil">
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="proyecto">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="proyecto">
+                <img src="proyecto3.jpg" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Quieres trabajar juntos o tienes alguna pregunta? ¡Contáctame!</p>
+        <form action="https://formspree.io/f/tu-email" method="POST">
+            <input type="text" name="name" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo" required>
+            <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
